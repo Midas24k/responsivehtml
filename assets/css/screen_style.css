@@ -1,90 +1,97 @@
-
-
 /* Global Content Formatting and Styles */
 
+/* Sets the default text color, font family, size, and a gradient background for the entire webpage */
 body {
-    color: #555;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 14px;
-    background: #5d357d url("../images/background_gradient1.jpg") repeat-x 0px 0px;
+    color: #555; /* Dark gray text color for general readability */
+    font-family: Arial, Helvetica, sans-serif; /* Sans-serif font for modern appearance */
+    font-size: 14px; /* Standard font size for text */
+    background: #5d357d url("../images/background_gradient1.jpg") repeat-x 0px 0px; /* Purple background with a horizontal gradient */
 }
 
+/* Styles for the main page container */
 .page {
-    max-width: 980px;
-    margin: 0px auto 0px auto;
-    position: relative;
-    background-color: #fff;
+    max-width: 980px; /* Sets a maximum width for the content to center it */
+    margin: 0px auto 0px auto; /* Centers the content horizontally */
+    position: relative; /* Enables absolute positioning of child elements relative to this container */
+    background-color: #fff; /* White background for the content area */
 }
 
+/* Heading styles for consistency and thematic coloring */
+h1, h2, h3 {
+    color:#512970; /* Dark purple color for headings for visual hierarchy */
+}
 h1 {
-    color:#512970;
-    margin: 0em 0em .75em 0em;
+    margin: 0em 0em .75em 0em; /* Spacing below the h1 element */
 }
 h2 {
-    color:#512970;
-    margin: 0em 0em 1em 0em;
+    margin: 0em 0em 1em 0em; /* Spacing below the h2 element */
 }
 h3 {
-    color:#512970;
-    margin: 0em 0em .5em 0em;
+    margin: 0em 0em .5em 0em; /* Spacing below the h3 element */
 }
 
+/* Paragraph styling for readability */
 p {
-    margin: 0em 0em .75em 0em;
-    line-height: 1.4em;
-
+    margin: 0em 0em .75em 0em; /* Bottom margin for paragraph separation */
+    line-height: 1.4em; /* Line height for improved readability */
 }
 
+/* Link styling for visual cues */
 a{
-    color: #0089d7;  
+    color: #0089d7;  /* Bright blue color for links to stand out */
 }
 a:hover {
-    color: #e06604;
+    color: #e06604; /* Orange color on hover for visual feedback */
 }
 
+/* Footer styling for consistency with the theme */
 footer {
-    font-size: .85em;
-    color: #9c81b1;
-    background-color: #5d357d;
-    padding: 10px 10px 10px 0px;
+    font-size: .85em; /* Slightly smaller font size for footer content */
+    color: #9c81b1; /* Light purple color for footer text */
+    background-color: #5d357d; /* Dark purple background to match the site theme */
+    padding: 10px 10px 10px 0px; /* Padding for spacing inside the footer */
 }
-.promo h3 {
-    font-size: 1.1em;
-    margin: 0;
 
+/* Promo section styling for emphasis */
+.promo h3 {
+    font-size: 1.1em; /* Slightly larger font size for promo titles */
+    margin: 0; /* Removes margin for tight spacing */
 }
 .promo p {
-    line-height: 1.2em;
-    font-size: .9em;
-    margin-bottom: .5em;
+    line-height: 1.2em; /* Line height for readability */
+    font-size: .9em; /* Slightly smaller font size for promo text */
+    margin-bottom: .5em; /* Bottom margin for spacing */
 }
 .promo {
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /* Ensures promo images do not repeat */
 }
 
+/* Specific promo images for different sections */
 .promo.one {
-    background-image: url("../images/promo_1.jpg");
+    background-image: url("../images/promo_1.jpg"); /* Image for the first promo */
 }
 .promo.two {
-    background-image: url("../images/promo_2.jpg");
+    background-image: url("../images/promo_2.jpg"); /* Image for the second promo */
 }
 .promo.three {
-    background-image: url("../images/promo_3.jpg");
+    background-image: url("../images/promo_3.jpg"); /* Image for the third promo */
 }
 
+/* Call-to-action link styling for visibility and action encouragement */
 a.cta {
-    text-transform: uppercase;
-    font-size: .9em;
-    font-weight: bold;
-    text-decoration: none;
-    padding: 0px 12px 0px 0px;
-    background: url("../images/cta_arrow.png") no-repeat right 0px;
+    text-transform: uppercase; /* Makes the text uppercase for emphasis */
+    font-size: .9em; /* Slightly smaller font size for aesthetic */
+    font-weight: bold; /* Bold font weight for visibility */
+    text-decoration: none; /* Removes underline from links */
+    padding: 0px 12px 0px 0px; /* Right padding for spacing before the arrow */
+    background: url("../images/cta_arrow.png") no-repeat right 0px; /* Arrow image on the right side */
 }
 a.cta:hover {
-    background-position: right -50px;
+    background-position: right -50px; /* Moves the arrow on hover for a dynamic effect */
 }
 
+/* Utility class to clear floats */
 .clear-fix {
-    clear: both;
-    line-height: 1px;
+    clear: both; /* Clears both left and right floats */
+    line-height: 1px; /* Minimal line-height to maintain layout */
 }
