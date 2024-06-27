@@ -8,3 +8,63 @@ body {
     font-size: 14px;
     background: #5d357d url("../images/background_gradient1.jpg") repeat-x 0px 0px;
 }
+
+.page {
+    max-width: 980px;
+    margin: 0px auto 0px auto;
+    position: relative;
+    background-color: #fff;
+}
+
+h1 {
+    color:#512970;
+    margin: 0em 0em .75em 0em;
+}
+h2 {
+    color:#512970;
+    margin: 0em 0em 1em 0em;
+}
+h3 {
+    color:#512970;
+    margin: 0em 0em .5em 0em;
+}
+
+p {
+    margin: 0em 0em .75em 0em;
+    line-height: 1.4em;
+
+}
+
+a{
+    color: #0089d7;  
+}
+a:hover {
+    color: #e06604;
+}
+
+footer {
+    font-size: .85em;
+    color: #9c81b1;
+    background-color: #5d357d;
+    padding: 10px 10px 10px 0px;
+}
+.promo h3 {
+    font-size: 1.1em;
+    margin: 0;
+
+}
+.promo p {
+    line-height: 1.2em;
+    font-size: .9em;
+    margin-bottom: .5em;
+}
+
+.promo.one {
+    background-image: url("../images/promo_1.jpg");
+}
+.promo.two {
+    background-image: url("../images/promo_2.jpg");
+}
+.promo.three {
+    background-image: url("../images/promo_3.jpg");
+}
