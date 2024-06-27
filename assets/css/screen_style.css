@@ -1,4 +1,10 @@
-@charset "UTF-8";
+
 
 /* Global Content Formatting and Styles */
 
+body {
+    color: #555;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    background: #5d357d url("../images/background_gradient1.jpg") repeat-x 0px 0px;
+}
