@@ -2,5 +2,17 @@
 
 /* Layout Medium Screens */
 
+header {
+    height: 150px;
+    background: url("../images/2---banners_08.jpg") no-repeat 90% 0px;
 
+}
+
+header a.logo {
+    width: 115px;
+    height: 65px;
+    top: 45px;
+    left: 25px;
+    background-image: url("../images/logo_medium.png");
+}
 
