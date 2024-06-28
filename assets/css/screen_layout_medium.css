@@ -1,35 +1,37 @@
-@charset "UTF-8";
+@charset "UTF-8"; /* Specifies the character encoding for the CSS file, ensuring correct display of text */
 
 /* Layout Medium Screens */
+/* Adjustments for medium screen sizes, typically tablets or small desktops */
 
 header {
-    height: 150px;
-    background: url("../images/2---banners_08.jpg") no-repeat 90% 0px;
-
+    height: 150px; /* Reduces the height for medium screens for a more compact look */
+    background: url("../images/2---banners_08.jpg") no-repeat 90% 0px; /* Sets a different banner image for medium screens, aligning it to the right */
 }
 
 header a.logo {
-    width: 115px;
-    height: 65px;
-    top: 45px;
-    left: 25px;
-    background-image: url("../images/logo_medium.png");
+    width: 115px; /* Adjusts logo width for medium screens */
+    height: 65px; /* Adjusts logo height for medium screens */
+    top: 45px; /* Positions the logo lower than on large screens */
+    left: 25px; /* Positions the logo slightly more to the right than on large screens */
+    background-image: url("../images/logo_medium.png"); /* Uses a different logo image optimized for medium screens */
 }
 
 .promo_container {
-    padding: 0px 20px 15px 20px;
-    
+    padding: 0px 20px 15px 20px; /* Adjusts padding around the promo container for medium screens */
 }
+
 .promo_container .promo {
-    background-position: 0px 0px;
+    background-position: 0px 0px; /* Resets background position for promos on medium screens */
 }
+
 .promo_container .promo .content {
-    padding: 70px 30px 0px 0px;
+    padding: 70px 30px 0px 0px; /* Adjusts padding for promo content, providing more space on the top and right */
 }
+
 nav {
-    top: 150px;
+    top: 150px; /* Positions the navigation bar lower to accommodate the reduced header height on medium screens */
 }
 
 nav a {
-  margin: 12px 0px 10px 20px;
+  margin: 12px 0px 10px 20px; /* Standardizes margin for navigation links, consistent with other screen sizes */
 }
