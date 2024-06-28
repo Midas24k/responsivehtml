@@ -1,72 +1,70 @@
-@charset "UTF-8";
-
+@charset "UTF-8"; /* Specifies the character encoding for the CSS file, ensuring correct display of text */
 
 /* Global Layout Rules */
 body {
-    margin: 0px; 
-    padding: 0px;
+    margin: 0px; /* Removes the default margin from the body */
+    padding: 0px; /* Removes the default padding from the body */
 }
 header a.logo {
-    display: block;
-    position: absolute;
-    background-position: 0px 0px;
-    background-repeat: no-repeat;
-
+    display: block; /* Makes the logo link a block element to occupy the full available width */
+    position: absolute; /* Positions the logo absolutely within its parent container */
+    background-position: 0px 0px; /* Sets the initial position of the background image */
+    background-repeat: no-repeat; /* Prevents the background image from repeating */
 }
+
 @media screen and (max-width: 990px) {
-    footer {padding-left: 20px;}
+    footer {padding-left: 20px;} /* Adds padding to the left of the footer on screens smaller than 990px */
 }
 
 /* Layout Large Screens (default for older browsers) */
 
 header {
-    height: 225px;
-    background: url("../images/banners_large.jpg") no-repeat right 0px;
+    height: 225px; /* Sets a fixed height for the header */
+    background: url("../images/banners_large.jpg") no-repeat right 0px; /* Adds a background image to the header with no repeat */
 }
 header a.logo {
-    width: 150px;
-    height: 85px;
-    top: 35px;
-    left: 20px;
-    background-image: url("../images/logo_large.png");
+    width: 150px; /* Sets the width of the logo */
+    height: 85px; /* Sets the height of the logo */
+    top: 35px; /* Positions the logo 35px from the top of its parent */
+    left: 20px; /* Positions the logo 20px from the left of its parent */
+    background-image: url("../images/logo_large.png"); /* Specifies the background image (logo) */
 }
 
 article {
-    padding: 60px 20px 10px 20px;
+    padding: 60px 20px 10px 20px; /* Adds padding around the content of the article for spacing */
 }
-	
-.promo_container {
-    margin: 0px 0px 15px 20px;
     
+.promo_container {
+    margin: 0px 0px 15px 20px; /* Adds margin around the promo container for spacing */
 }
 
 .promo_container .promo {
-    width: 33%;
-    float: left;
-    background-position: 0px 3px;
+    width: 33%; /* Sets each promo to take up one-third of the container's width */
+    float: left; /* Floats the promos to the left to align them horizontally */
+    background-position: 0px 3px; /* Adjusts the background position for visual alignment */
 }
 
 .promo_container .promo .content {
-    padding: 0px 30px 0px 70px;
+    padding: 0px 30px 0px 70px; /* Adds padding inside each promo for spacing of the content */
 }
 
 nav {
-    width: 100%;
-    display: block;
-    position: absolute;
-    top: 225px;
-    background-color:#8c2400;
+    width: 100%; /* Makes the navigation bar span the full width of its container */
+    display: block; /* Ensures the navigation is displayed as a block-level element */
+    position: absolute; /* Positions the navigation absolutely within its parent container */
+    top: 225px; /* Positions the navigation 225px from the top of its parent */
+    background-color:#8c2400; /* Sets the background color of the navigation bar */
 }
 nav a {
-    color: #e6967b;
-    text-transform: uppercase;
-    text-decoration: none;  
-    display: inline-block;
-    font-weight: bold;  
-    font-size: .9em;
-    margin: 12px 0px 10px 20px;
+    color: #e6967b; /* Sets the text color of navigation links */
+    text-transform: uppercase; /* Transforms all navigation link text to uppercase */
+    text-decoration: none;  /* Removes the default underline from navigation links */
+    display: inline-block; /* Allows the links to be displayed inline but with block properties */
+    font-weight: bold;  /* Makes the navigation link text bold */
+    font-size: .9em; /* Sets the font size of the navigation links */
+    margin: 12px 0px 10px 20px; /* Adds margin around the navigation links for spacing */
 }
 
 nav a:hover {
-    color: #ffebc2;
+    color: #ffebc2; /* Changes the text color of navigation links on hover for visual feedback */
 }
