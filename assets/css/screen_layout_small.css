@@ -1,64 +1,63 @@
-@charset "UTF-8";
+@charset "UTF-8"; /* Specifies the character encoding for the CSS file, ensuring correct display of text */
 
 /* Layout Small Screens */
+/* Styles optimized for small screens, such as mobile devices */
 
 body {
-  background-image: none;
+    background-image: none; /* Removes the background image for small screens for faster loading and cleaner look */
 }
 header {
-  height: 70px;
-  background: url("../images/banners_sml.jpg") no-repeat right 0px;
+    height: 70px; /* Sets a smaller height for the header on small screens */
+    background: url("../images/banners_sml.jpg") no-repeat right 0px; /* Uses a smaller banner image aligned to the right */
 }
 
 header a.logo {
-  width: 100px;
-  height: 40px;
-  top: 20px;
-  left: 10px;
-  background-image: url("../images/logo_small.png");
+    width: 100px; /* Adjusts the logo width to fit small screens */
+    height: 40px; /* Adjusts the logo height to fit small screens */
+    top: 20px; /* Positions the logo 20px from the top */
+    left: 10px; /* Positions the logo 10px from the left */
+    background-image: url("../images/logo_small.png"); /* Uses a smaller logo image for small screens */
 }
 
 article {
-  padding: 20px 20px 10px 20px;
+    padding: 20px 20px 10px 20px; /* Adjusts article padding for better readability on small screens */
 }
 
 .promo_container {
-  padding: 0px;
+    padding: 0px; /* Removes padding from the promo container on small screens for tighter layout */
 }
 
 .promo_container .promo {
-  width: auto;
-  float: none;
-  padding: 10px 0px 0px 0px;
-  background-position: 20px 13px;
-  border-top: 1px solid #ccc;
+    width: auto; /* Allows promo elements to automatically adjust their width */
+    float: none; /* Disables floating, stacking promos vertically */
+    padding: 10px 0px 0px 0px; /* Adds padding to the top of each promo for spacing */
+    background-position: 20px 13px; /* Adjusts background position for visual alignment */
+    border-top: 1px solid #ccc; /* Adds a top border to each promo for visual separation */
 }
 
 .promo_container .promo .content {
-  padding: 0px 20px 5px 90px;
+    padding: 0px 20px 5px 90px; /* Adjusts content padding for alignment and spacing */
 }
 
 footer {
-    border-top: 1 px solid #ccc;
+        border-top: 1px solid #ccc; /* Corrects typo in border declaration and adds a top border to the footer for visual separation */
 }
 nav {
-    position:static; 
-    padding: 10px 0px 10px 0px;
-    background: #5d357d;
+        position: static; /* Resets navigation position to static for better flow within the document */
+        padding: 10px 0px 10px 0px; /* Adds padding to the navigation for spacing */
+        background: #5d357d; /* Sets a distinct background color for the navigation bar */
 }
 
 nav a {
-    color: #ccbad9; 
-    display: block;
-    margin: 15px;
-    padding: 9px;
-    border:1px solid #9c81b1;
-    background: url(../images/mobile_link_arrow.png) no-repeat right center;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    border-radius: 12px;
+        color: #ccbad9; /* Sets the text color for navigation links */
+        display: block; /* Displays links as block elements to occupy the full available width */
+        margin: 15px; /* Adds margin around links for spacing */
+        padding: 9px; /* Adds padding inside links for better touch target size */
+        border: 1px solid #9c81b1; /* Adds a border around links for visual distinction */
+        background: url(../images/mobile_link_arrow.png) no-repeat right center; /* Adds an arrow icon to the right of each link */
+        border-radius: 12px; /* Rounds the corners of the link borders for a softer look */
 }
 nav a:hover {
-    background-color: rgba(255, 255, 255, .15);
-    color: #fff;
+        background-color: rgba(255, 255, 255, .15); /* Changes the background color of links on hover for visual feedback */
+        color: #fff; /* Changes the text color to white on hover for better contrast */
 }
